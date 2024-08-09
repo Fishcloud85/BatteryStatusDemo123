@@ -1,7 +1,5 @@
 # BatteryStatusDemo
 
-# Battery Status Floating Window App README
-
 ## 1. Overview
 This is an example application code used to display battery status information.
 It achieves real-time presentation of various battery status parameters such as charging status, battery level, voltage, temperature, etc. in real time by creating a floating window. 
