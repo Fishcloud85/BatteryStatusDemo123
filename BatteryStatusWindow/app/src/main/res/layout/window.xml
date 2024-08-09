@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30sp"
+    android:background="@color/white"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery Info"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_marginTop="20sp">
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_gravity="end|center_vertical"
+        android:gravity="center"
+        android:text="ok"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#C96262"/>
+
+</LinearLayout>
